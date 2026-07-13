@@ -1,11 +1,11 @@
 body {
-    --background-color: #ede6e3;
-    --wall-color: #36382e;
-    --joystick-color: #210124;
-    --joystick-head-color: #f06449;
-    --ball-color: #f06449;
-    --end-color: #7d82b8;
-    --text-color: #210124;
+    --background-color: #dbd1b3;
+    --wall-color: #045d5d;
+    --joystick-color: #0aa3cf;
+    --joystick-head-color: #fffd37;
+    --ball-color: #ff7f50;
+    --end-color: #428047;
+    --text-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--background-color);
 }
@@ -168,7 +168,7 @@ a:visited {
     margin-top: -9px;
     margin-left: -9px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #02075d;
     width: 18px;
     height: 18px;
 }
