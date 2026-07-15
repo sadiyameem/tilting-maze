@@ -1,3 +1,7 @@
+// function setTheme(theme) {
+//   alert("Theme changed to " + theme);
+// }
+
 Math.minmax = (value, limit) => {
   return Math.max(Math.min(value, limit), -limit);
 };
@@ -595,3 +599,7 @@ function main(timestamp) {
     } else throw error;
   }
 }
+
+  function setTheme(theme) {
+      document.body.className = theme;
+    }
